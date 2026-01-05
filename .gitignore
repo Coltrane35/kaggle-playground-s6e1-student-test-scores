@@ -1,0 +1,54 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===============================
+# Virtual environment
+# ===============================
+venv/
+.env
+.env.*
+
+# ===============================
+# Jupyter / cache
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ===============================
+# Data (Kaggle datasets)
+# ===============================
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+data/*.zip
+
+# ===============================
+# Outputs (large artifacts)
+# ===============================
+outputs/*.cbm
+outputs/*.pkl
+outputs/*.joblib
+
+# (leave metrics.txt & submission.csv tracked)
+!outputs/metrics.txt
+!outputs/submission.csv
+
+# ===============================
+# Logs
+# ===============================
+*.log
