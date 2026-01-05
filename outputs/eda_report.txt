@@ -1,0 +1,37 @@
+=== SHAPES ===
+train: (630000, 13)
+test : (270000, 12)
+
+=== COLUMNS (train) ===
+id, age, gender, course, study_hours, class_attendance, internet_access, sleep_hours, sleep_quality, study_method, facility_rating, exam_difficulty, exam_score
+
+=== TARGET (train) ===
+count    630000.000000
+mean         62.506672
+std          18.916884
+min          19.599000
+25%          48.800000
+50%          62.600000
+75%          76.300000
+max         100.000000
+
+=== MISSING VALUES (train) ===
+No missing values.
+
+=== MISSING VALUES (test) ===
+No missing values.
+
+=== DTYPES (train) ===
+id                    int64
+age                   int64
+gender               object
+course               object
+study_hours         float64
+class_attendance    float64
+internet_access      object
+sleep_hours         float64
+sleep_quality        object
+study_method         object
+facility_rating      object
+exam_difficulty      object
+exam_score          float64

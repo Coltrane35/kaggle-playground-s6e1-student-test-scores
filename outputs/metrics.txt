@@ -1,0 +1,6 @@
+oof_rmse: 8.747030004775327
+mean_fold_rmse: 8.7470201255673
+std_fold_rmse: 0.013146382030603674
+feature_cols: ['age', 'gender', 'course', 'study_hours', 'class_attendance', 'internet_access', 'sleep_hours', 'sleep_quality', 'study_method', 'facility_rating', 'exam_difficulty']
+cat_cols: ['gender', 'course', 'internet_access', 'sleep_quality', 'study_method', 'facility_rating', 'exam_difficulty']
+model_path: C:\Users\grzeg\Desktop\GitHub-Projects\KAGGLE\Predicting Student Test Scores\playground-series-s6e1\outputs\catboost_regressor.cbm
